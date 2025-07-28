@@ -1,53 +1,97 @@
-body {
-  font-family: Arial, sans-serif;
+/* Reset básico */
+* {
   margin: 0;
   padding: 0;
-  background: #f7f7f7;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #111;
+  line-height: 1.6;
 }
 
 header {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 20px;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo img {
+  height: 40px;
 }
 
 .logo {
-  width: 100px;
-  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.nombre-banda {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
 }
 
 nav a {
-  color: #f7f7f7;
-  margin: 0 10px;
+  color: #fff;
   text-decoration: none;
+  font-weight: bold;
 }
 
-section {
-  padding: 40px;
-  background-color: white;
-  margin: 20px;
-  border-radius: 8px;
+.hero {
+  background: url("assets/hero.jpg") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-form input, form textarea {
-  display: block;
-  margin: 10px 0;
-  width: 100%;
-  padding: 10px;
+.hero-texto h1 {
+  font-size: 4rem;
+  color: #fff;
 }
 
-button {
-  background: #222;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
+.hero-texto p {
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+.sobre, .musica, footer {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  background: #e91e63;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 footer {
-  text-align: center;
-  background: #222;
-  color: white;
-  padding: 20px;
+  background: #000;
+}
+
+.redes a {
+  margin: 0 1rem;
+  color: #e91e63;
+  text-decoration: none;
 }
