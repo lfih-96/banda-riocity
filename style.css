@@ -33,12 +33,30 @@ header {
 }
 
 .nombre-banda {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: white;
   margin-left: 10px;
+  font-family: 'Italianno', cursive;
 }
 
+
+.redes-header {
+  display: flex;
+  gap: 1rem;
+  margin: 0 2rem;
+}
+
+.redes-header a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.redes-header a:hover {
+  color: #e91e63;
+}
 
 nav ul {
   list-style: none;
@@ -50,6 +68,14 @@ nav a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+  font-family: 'Italianno', cursive;
+  font-size: 1.8rem;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+nav a:hover {
+  transform: scale(1.5);
 }
 
 .hero {
