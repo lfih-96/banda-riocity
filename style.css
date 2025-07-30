@@ -79,12 +79,13 @@ nav a:hover {
 }
 
 .hero {
-  background: url("assets/hero.jpg") center/cover no-repeat;
+  background: url("assets/imagenes/portada_banda.png") center center / cover no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 .hero-texto h1 {
