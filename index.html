@@ -6,68 +6,77 @@
   <title>Banda Riocity</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class= "pagina"> 
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        <img src="assets\imagenes\logo_principal.png" alt="Logo de la Banda" />
+        <span class="nombre-banda">Danny y  Jhonnatan</span>
+      </div>
 
-  <!-- HEADER -->
-  <header>
-    <div class="logo">
-      <img src="assets\imagenes\logo_principal.png" alt="Logo de la Banda" />
-      <span class="nombre-banda">Danny y  Jhonnatan</span>
-    </div>
+      <div class="redes-header">
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
 
-    <div class="redes-header">
-      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-      <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-    </div>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#musica">Música</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <nav>
-      <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#musica">Música</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="vinilo-contenedor">
+        <img src="assets/imagenes/vinil.png" class="vinilo-girando" alt="Vinilo">
+        <img src="assets/imagenes/jhonnatan1.png" class="musico1" alt="Músico 1">
+        <img src="assets/imagenes/danny1.png" class="musico2" alt="Músico 2">
+      </div>
 
-  <!-- HERO -->
-  <section id="inicio" class="hero">
-    <div class="hero-texto">
-      <h1>Danny y Jhonnatan</h1>
-      <p>Interpretando la música del inolvidable <br> Julio Jaramillo</p>
-    </div>
-  </section>
+      <div class="hero-texto">
+        <h1>Danny y Jhonnatan</h1>
+        <p>Interpretando la música del inolvidable <br> Julio Jaramillo</p>
+      </div>
+    </section>
 
-  <!-- SOBRE -->
-  <section id="sobre" class="sobre">
-    <h2>¿Quiénes somos?</h2>
-    <p>Somos un dúo de guitarristas y cantantes dedicados a interpretar las inolvidable canciones de Julio Jaramillo. Ofrecemos un repertorio variado que incluye boleros, valses, pasillos y mas.</p>
-    <a href="#musica" class="btn">Escuchar ahora</a>
-  </section>
 
-  <!-- MÚSICA -->
-  <section id="musica" class="musica">
-    <h2>Nuestra música</h2>
-    <iframe width="100%" height="300" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-  </section>
 
-  <!-- CONTACTO -->
-  <footer id="contacto">
-    <h2>Contáctanos</h2>
-    <p>Email: bandariocity@gmail.com</p>
-    <div class="redes">
-      <a href="#">Instagram</a>
-      <a href="#">YouTube</a>
-      <a href="#">Spotify</a>
-    </div>
-    <p class="copy">&copy; 2025 Banda Riocity</p>
-  </footer>
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre">
+      <h2>¿Quiénes somos?</h2>
+      <p>Somos un dúo de guitarristas y cantantes dedicados a interpretar las inolvidable canciones de Julio Jaramillo. Ofrecemos un repertorio variado que incluye boleros, valses, pasillos y mas.</p>
+      <a href="#musica" class="btn">Escuchar ahora</a>
+    </section>
 
-  <script src="script.js"></script>
+    <!-- MÚSICA -->
+    <section id="musica" class="musica">
+      <h2>Nuestra música</h2>
+      <iframe width="100%" height="300" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- CONTACTO -->
+    <footer id="contacto">
+      <h2>Contáctanos</h2>
+      <p>Email: bandariocity@gmail.com</p>
+      <div class="redes">
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">Spotify</a>
+      </div>
+      <p class="copy">&copy; 2025 Banda Riocity</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
 </body>
 </html>
