@@ -204,3 +204,63 @@ footer {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 768px) {
+  .vinilo-contenedor {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    padding: 1rem;
+  }
+
+  .musico1,
+  .musico2 {
+    position: static; /* Elimina posición absoluta */
+    width: 250px; /* Reduce tamaño */
+    transform: none; /* Quita transform */
+    animation: none; /* Desactiva animación */
+    opacity: 1; /* Asegúrate de que sean visibles */
+  }
+
+  .vinilo-girando {
+    width: 200px;
+  }
+
+  .hero-texto h1 {
+    font-size: 2rem;
+  }
+
+  .hero-texto p {
+    font-size: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+  }
+
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .logo img {
+    height: 30px;
+  }
+
+  .nombre-banda {
+    font-size: 1.8rem;
+  }
+
+  .redes-header {
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 0;
+  }
+}
