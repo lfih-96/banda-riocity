@@ -216,7 +216,8 @@ footer {
 
   .musicos-mobile {
     display: flex;
-    flex-direction: column; /* usa 'row' si prefieres lado a lado */
+    flex-direction: row; /* 🔁 para mostrar lado a lado */
+    justify-content: center;
     align-items: center;
     gap: 1rem;
   }
@@ -224,7 +225,7 @@ footer {
   .musico1,
   .musico2 {
     position: static;
-    width: 250px;
+    width: 120px; /* o lo que se ajuste mejor */
     height: auto;
     transform: none;
     animation: none;
@@ -235,6 +236,7 @@ footer {
     width: 200px;
     height: auto;
   }
+}
 
   .hero-texto h1 {
     font-size: 2rem;
