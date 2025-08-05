@@ -211,29 +211,19 @@ footer {
     height: auto;
     gap: 20px;
     padding: 1rem;
-    overflow: hidden;
-  }
-
-  .musicos-mobile {
-    display: flex;
-    flex-direction: column; /* usa 'row' si prefieres lado a lado */
-    align-items: center;
-    gap: 1rem;
   }
 
   .musico1,
   .musico2 {
-    position: static;
-    width: 250px;
-    height: auto;
-    transform: none;
-    animation: none;
-    opacity: 1;
+    position: static; /* Elimina posición absoluta */
+    width: 250px; /* Reduce tamaño */
+    transform: none; /* Quita transform */
+    animation: none; /* Desactiva animación */
+    opacity: 1; /* Asegúrate de que sean visibles */
   }
 
   .vinilo-girando {
     width: 200px;
-    height: auto;
   }
 
   .hero-texto h1 {
